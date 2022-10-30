@@ -107,12 +107,14 @@ a:hover, a:active {
     grid-area: 5 / 3 / span 1 / span 1;
     font-family: "Paint";
     font-weight: bold;
+    z-index: 5;
 }
 
 .d {
     grid-area: 5 / 4 / span 1 / span 1;
     font-family: 'EventFont';
     font-weight: bold;
+    z-index: 5;
 }
 
 /*Web*/
