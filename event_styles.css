@@ -1,0 +1,166 @@
+/* Reset */
+
+* {
+   background: transparent;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'Halloween';
+    src: url('Halloween.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spooky';
+    src: url('Spooky.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PrintClearly';
+    src: url(PrintClearly.otf) format('opentype');
+}
+
+/* Formatting Page */
+
+html {
+    background-color: #242424;
+}
+
+body {
+    background-color: #525252;
+    margin-left: auto;
+    margin-right: auto;
+	width: 95%;
+	max-width: 960px;
+	min-width: 640px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Serif;
+}
+
+/*Navigation Bar*/
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: block;
+}
+
+body > header > nav.horizontalNavigation li{
+    width: 25%;
+}
+
+
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+ }
+ 
+ nav a {
+    text-decoration: none;
+ }
+
+nav.horizontalNavigation > ul > li {
+    display: block;
+    float: left;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    background-color: #333;
+    font-size: 1.78em;
+    line-height: 1.3em;
+    font-family: 'PrintClearly';
+    text-align: center;
+}
+
+nav.horizontalNavigation a:link,
+nav.horizontalNavigation a:visited {
+    color: white;
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNavigation a:active {
+    background-color: rgb(37, 37, 37);
+}
+
+/*Headers*/
+
+h1 {
+    font-family: 'Halloween', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: purple;
+    letter-spacing: 2px;
+    border-bottom: solid 5px orangered;
+}
+
+h2 {
+    font-size: 35px;
+    color: orangered;
+    font-family: "Halloween", cursive;
+    letter-spacing: 2px;
+}
+
+/*Paragraphs*/
+
+p {
+    font-family: 'Spooky';
+    font-size: 25px;
+    color: white;
+}
+
+
+p > a:link,  p > a:visited {
+    color: rgb(7, 161, 1);
+}
+
+p > a:hover, p > a:active {
+    color: purple;
+}
+
+
+
+/*Images*/
+
+img#pixel {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 5px orangered solid;
+}
+
+/*Background*/
+
+/*I dont know what I thought would go here*/
+
+/*Footer*/
+
+footer {
+    color: white;
+    background-color: #333;
+    text-align: center;
+    font-family: 'PrintClearly';
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+footer > a:link,  footer > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover, footer > a:active {
+    color: orangered;
+}

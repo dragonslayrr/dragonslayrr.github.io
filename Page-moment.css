@@ -1,0 +1,238 @@
+@charset "utf-8";
+@font-face {
+  font-family: "Carved-Font";
+  src: url("Chiseled-KExl.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'PrintClearly';
+  src: url("PrintClearly.otf") format('opentype');
+}
+@font-face {
+  font-family: 'Halloween';
+  src: url('Halloween.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spooky';
+  src: url('Spooky.ttf') format('truetype');
+}
+/*Main stuff*/
+
+/* Reset */
+
+*,address, article, aside, blockquote, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, 
+header, html, img, li, main, nav, ol, p, section, span, ul {
+   background: transparent;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'Halloween';
+    src: url('Halloween.ttf') format('truetype');
+}
+
+/* Formatting Page */
+
+html {
+    background-color: #242424;
+}
+
+body {
+    background-color: #525252;
+    margin-left: auto;
+    margin-right: auto;
+	width: 95%;
+	max-width: 960px;
+	min-width: 640px;
+    margin-top: 20px;
+}
+
+/*Navigation Bar*/
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+    display: block;
+}
+
+body > header > nav.horizontalNavigation li{
+    width: 25%;
+}
+
+
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+ }
+ 
+ nav a {
+    text-decoration: none;
+ }
+
+nav.horizontalNavigation > ul > li {
+    display: block;
+    float: left;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    background-color: #333;
+    font-size: 1.78em;
+    line-height: 1.3em;
+    font-family: 'PrintClearly';
+    text-align: center;
+}
+
+nav.horizontalNavigation a:link,
+nav.horizontalNavigation a:visited {
+    color: white;
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNavigation a:active {
+    background-color: rgb(37, 37, 37);
+}
+
+/*Headers*/
+
+h1 {
+    font-family: 'Halloween', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: purple;
+    letter-spacing: 2px;
+    border-bottom: solid 5px white;
+}
+
+h2 {
+    font-size: 35px;
+    color: orangered;
+}
+
+/*Paragraphs*/
+
+p {
+    font-family: 'Rokkitt';
+    font-size: 25px;
+    color: white;
+}
+
+div.House-Text {
+  display: block;
+}
+
+/*Images*/
+
+.Haunted-Picture {
+width: 300px;
+height: 300px;
+float: left;
+border: 3px tomato solid;
+}
+.Haunted-Food {
+width: 200px;
+height: 200px;
+float: left;
+border: 2px tomato solid;
+}
+.Scary {
+  font-size: 50px;
+}
+.Haunted-Food-Container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+h3 {
+  color: black;
+	font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/*Main stuff*/
+
+/*Footer stuff*/
+
+.radius-all {
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+  
+.template-bg {
+  background: rgb(234, 106, 21);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+  
+.template-border {
+  top: 6vh;
+  border: 20px solid rgb(41, 134, 12);
+  position: relative;
+}
+#Gaming:link {
+  color: rgb(75, 35, 0);
+  text-decoration: none;
+}
+#Gaming:hover {
+  color: rgb(230, 250, 0);
+  text-decoration: none;
+}
+#Gaming:visited {
+  color: rgb(250, 200, 0);
+  text-decoration: none;
+}
+.FontHeader {
+  font-family: "Carved-Font";
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(238, 255, 0);
+}
+.FontParagraph {
+  font-family: "Carved-Font";
+  font-weight: normal;
+  font-size: 15px;
+  color: rgb(255, 208, 0);
+}
+#FootIMG{
+  position: absolute;
+  opacity: 0;
+  width: 327.5px;
+  top: 11.01%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 1s;
+}
+
+#Button1{
+  position: absolute;
+  height: 20px;
+  width: 17vw;
+  top: 57.5%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#Button2{
+  position: absolute;
+  width: 8vw;
+  top: 85%;
+  left: 57.5%;
+  transform: translate(-50%, -50%);
+  height: 20px;
+  cursor: pointer;
+}
+
+  /*Footer stuff*/

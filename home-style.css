@@ -1,0 +1,122 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'PrintClearly';
+    src: url('PrintClearly.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Monster';
+    src: url('Mrmonstar-rg2EA.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Not-Homeless';
+    src: url('KitchenHome-rg0gB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Paint';
+    src: url('JotSprayPaintRegular-avOR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Haunted-House-Squad-for-Life';
+    src: url('HauntedWoodsInlineDemo-w11wz.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EventFont';
+    src: url('FunnyWitchesDemo-rgeey.ttf') format('truetype');
+}
+/*General Formatting*/
+
+html {
+    background-color: #242424;
+}
+
+body {
+    position: absolute;
+    background-color: #525252;
+    color: white;
+    height: 98%;
+    width: 99%;
+}
+
+/*Grid*/
+
+.grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template: repeat(6, 1fr) / repeat(5, 1fr);
+}
+
+/*Heading*/
+
+.heading {
+    border: purple 1px;
+    grid-area: 3 / 2 / span 1 / span 3;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Monster';
+    -webkit-text-stroke: purple .5px;
+    color: orangered;
+    font-weight: bold;
+}
+
+/*Link Stylling*/
+
+.a a, .b a {
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+}
+
+.c a, .d a {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    font-size: 2em;
+}
+
+a:link, a:visited {
+    color: purple;
+}
+
+a:hover, a:active {
+    color: orangered;
+    background-color:rgb(37, 37, 37);
+}
+
+/*Link Grid*/
+
+.b {
+    grid-area: 5 / 2 / span 1 / span 1;
+    font-family: "Haunted-House-Squad-for-Life";
+    font-weight: normal;
+    font-size: 1.2em;
+    z-index: 5;
+}
+
+.c {
+    grid-area: 5 / 3 / span 1 / span 1;
+    font-family: "Paint";
+    font-weight: bold;
+}
+
+.d {
+    grid-area: 5 / 4 / span 1 / span 1;
+    font-family: 'EventFont';
+    font-weight: bold;
+}
+
+/*Web*/
+
+header img {
+    position: absolute;
+}
