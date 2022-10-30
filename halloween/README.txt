@@ -1,1 +1,1 @@
-This is just a sample so i can fix an issue with committing changes
+This page contains a halloween themed webpage me and two friends made for class.
