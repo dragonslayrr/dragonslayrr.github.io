@@ -1,0 +1,148 @@
+/*General Formatting*/
+
+html {
+    background-color: #242424;
+}
+
+body {
+    position: absolute;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    height: 98%;
+    width: 99%;
+}
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'PrintClearly';
+    src: url(PrintClearly.otf) format('opentype');
+}
+
+/*Grid Layout*/
+
+.grid {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template: repeat(6, 1fr) / 1fr 3fr;
+}
+
+.bar1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    border-right: Cyan inset 5px;
+}
+
+.bar2 {
+    grid-area: 2 / 1 / span 1 / span 1;
+    border-right: Cyan inset 5px;
+}
+
+.bar3 {
+    grid-area: 3 / 1 / span 1 / span 1;
+    border-right: Cyan inset 5px;
+}
+
+.bar4 {
+    grid-area: 4 / 1 / span 1 / span 1;
+    border-right: Cyan inset 5px;
+}
+
+.bar5 {
+    grid-area: 5 / 1 / span 1 / span 1;
+    border-right: Cyan inset 5px;
+}
+
+.bar6 {
+    grid-area: 6 / 1 / span 1 / span 1;
+    border-right: cyan inset 5px
+}
+
+.heading {
+    grid-area: 1 / 2 / span 2 / span 1;
+}
+
+.desc {
+    grid-area: 3 / 2 / span 2 / span 1;
+}
+
+.foot {
+    grid-area: 6 / 2 / span 1 / span 1;
+}
+
+/*Navigation*/
+
+header nav a {
+    font-family: 'PrintClearly', Serif;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header nav a:link, header nav a:visited {
+    color: white;
+}
+
+header nav a:active, header nav a:hover {
+    color: cyan;
+}
+
+/*Header*/
+
+h1.welcome {
+    font-family: cursive;
+    font-size: 4em;
+    -webkit-text-stroke: cyan 2px;
+    text-align: center;
+}
+
+/*Paragraphs*/
+
+p {
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Images*/
+
+
+
+/*Footer*/
+
+footer {
+    font-family: 'PrintClearly';
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 178px;
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+footer > a:link, footer > a:visited {
+    color: white;
+}
+
+footer > a:hover, footer > a:active {
+    color:rgb(56, 128, 228);
+}
+
+/*Links*/
+
+a:link, a:visited {
+    color: white;
+    font-family: 'PrintClearly';
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: cyan;
+    font-family: 'PrintClearly';
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
