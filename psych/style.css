@@ -72,7 +72,7 @@ body {
     display: grid;
     height: 100%;
     width: 100%;
-    grid-template: repeat(14, 1fr) / 3fr 1fr;
+    grid-template: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr / 3fr 1fr;
     font-size: 1.5em;
 }
 
@@ -252,4 +252,21 @@ a:active, a:hover {
     font-size: 2em;
     font-weight: bold;
     text-decoration: none;
+}
+
+#msLarge {
+    width: 75%;
+    float: right;
+}
+
+#mcLink:link, #mcLink:visited {
+    color: cyan;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+}
+
+#mcLink:hover, #mcLink:active {
+    font-family: 'Times New Roman';
+    color: darkblue;
+    font-size: 24px;
 }
