@@ -1,6 +1,5 @@
-x = prompt("File?")
-x = x.toString();
-x = `./Num${x}.txt`
+x = prompt("Type 0 to access a file with less colors but better load times. Type 1 for colors with an red value between 0 and 50. Type 2 for colors with a red value between 51 and 100. Type 3 for colors with a red value between 101 and 150. Type 4 for colors with a red value between 151 and 200. Type 5 for colors with a red value from 201 to 255.");
+x = `./Num${x}.txt`;
 
 class InfiniteScroll {
 	constructor(Element, Options) {
