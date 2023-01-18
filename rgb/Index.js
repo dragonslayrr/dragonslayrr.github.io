@@ -1,6 +1,6 @@
 x = prompt("File?")
 x = x.toString();
-x = `./num${x}.txt`
+x = `./Num${x}.txt`
 
 class InfiniteScroll {
 	constructor(Element, Options) {
