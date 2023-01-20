@@ -1,0 +1,83 @@
+* {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+html {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+	position: absolute;
+	height: 80px;
+	width: 100vw;
+	background-color: #444;
+	text-align: center;
+	transform: translate(100%, -100%);
+	top: 100%;
+	right: 100%;
+}
+
+body {
+	min-height: 97vh;
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	list-style-type: none;
+	margin: -8px;
+	overflow: hidden;
+	background-color: #444;
+	padding-inline-start: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #222;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active:hover {
+	background-color: #222;
+}
+
+/* This effects the car engine */
+#logo {
+	padding-top: 5px;
+	width: 90px;
+	height: auto;
+	max-width: 150px;
+	max-height: 700px;
+	float: left;
+}
+
+@media only screen and (max-width: 480px) {
+	ul li {
+		font-size: 10px;
+		padding-left: 0%;
+		padding-right: 0px;
+		width: 100%;
+		margin-left: 0x;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+	ul li {
+		font-size: 10px;
+	}
+}

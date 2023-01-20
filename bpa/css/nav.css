@@ -1,0 +1,17 @@
+a#navButton {
+	display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+	a#navButton {
+		display: block;
+	}
+	.navMenu {
+		display: none;
+	}
+	a#navButton:hover~.navMenu, .navMenu:hover{
+        display: list-item;
+	}
+
+}

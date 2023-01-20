@@ -1,0 +1,39 @@
+.about {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+p {
+	overflow-x: hidden;
+	width: 90%;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1275px) {
+	.grid-container {
+		grid-template-columns: 100%;
+		grid-template-rows: 33% 33% 33%;
+	}
+	p {
+		width: 90%;
+	}
+	footer {
+		top: 141%;
+	}
+}
+@media only screen and (max-width: 499px) {
+	footer {
+		top: 130%;
+	}
+}

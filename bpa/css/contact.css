@@ -1,0 +1,36 @@
+#contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: white;
+    display: inline;
+    margin: 2%;
+    font-size: 200%;
+}
+
+noscript {
+    position: absolute;
+    top: 80%;
+}
+
+@media only screen and (max-width: 660px) {
+    .info {
+        margin-top: 5vh;
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .info {
+        font-size: 70%;
+    }
+
+    footer {
+        height: 40px;
+    }
+}
