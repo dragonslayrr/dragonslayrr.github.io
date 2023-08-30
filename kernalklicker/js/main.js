@@ -214,13 +214,14 @@ class butterBoom extends powerUp {
         console.log(this.main.UpgradeTier - 1);
         this.main.UpgradeName = this.UpgradeName;
         this.main.UpgradeImage = this.UpgradeImage;
-        this.main.Upgradekerency = [25, 100, 300, 500];
+        this.main.Upgradekerency = [25, 100, 300, 500, Infinity];
         this.main.MaxUpgradeTier = 4;
         this.main.Upgrade = [
             { Strength: 1, Duration: 0 },
             { Strength: 1.5, Duration: 10000 },
             { Strength: 2, Duration: 30000 },
             { Strength: 3, Duration: 30000 },
+            {Strength: 5, Duration: 60000}
         ];
         this.main.handleClick = () => {
             if (this.main.UpgradeTier != 0) {
@@ -258,13 +259,14 @@ class supercharger extends powerUp {
         console.log(this.main.UpgradeTier - 1);
         this.main.UpgradeName = this.UpgradeName;
         this.main.UpgradeImage = this.UpgradeImage;
-        this.main.Upgradekerency = [25, 100, 300, 500];
+        this.main.Upgradekerency = [25, 100, 300, 500, Infinity];
         this.main.MaxUpgradeTier = 4;
         this.main.Upgrade = [
             { DamageMult: 1, SpeedMult: 1, Duration: 0 },
             { DamageMult: 2, SpeedMult: 2, Duration: 20000 },
             { DamageMult: 3, SpeedMult: 2, Duration: 30000 },
             { DamageMult: 3, SpeedMult: 2, Duration: 60000 },
+            { DamageMult: 5, SpeedMult: 5, Duration: 60000 }
         ];
         this.main.handleClick = () => {
             if (this.main.UpgradeTier != 0) {
