@@ -136,7 +136,7 @@ body {
 
 #toolbarArea {
     position: relative;
-    background-color: green;
+    background-color: rgb(63, 63, 63);
     box-shadow: inset 0px -8px 20px black;
     height: 60px;
     width: calc(100% - 2vw);
