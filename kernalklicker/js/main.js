@@ -491,7 +491,12 @@ MenuButton.addEventListener("click", () => {
 
 window.addEventListener("keyup", (e) => {
     if (e.key == "PageUp") {
-        damage = parseInt(prompt("Damage? "));
+        let setDamage = parseInt(prompt("Damage? "));
+        if (setDamage.toString() == "NaN") {
+            damage = 1;
+        } else {
+            damage = setDamage;
+        }
     }
     if (e.key == "PageDown") {
         kerency = parseInt(prompt("Kerency? "));
