@@ -601,3 +601,7 @@ function Update() {
 setInterval(() => {
     Update();
 }, 0);
+
+function test() {
+    console.log("test");
+}
