@@ -107,6 +107,12 @@
 	width: 100%;
 	height: 50px;
 	background-color: rgb(27 27 27 / 91%);
+	color: white;
+	text-align: center;
+	font-size: 2vh;
+}
+#Footer a {
+	color: lightblue;
 }
 #HomePage {
 	display: flex;
