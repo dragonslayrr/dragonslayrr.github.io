@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kernal Klicker</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/popcorn.png">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="gameScreen">
+      <div id="toolbarArea">
+        <div id="menuButton"></div>
+        <p id="Kerency">0 Kerency</p>
+      </div>
+      <div id="playArea">
+        <p id="nameTag"></p>
+        <div id="clickableThing"></div>
+        <div>
+          
+          <label id="healthLabel" for="healthBar" style="z-index: 10">10/10</label>
+          <progress id="healthBar" value="100" max="100"></progress>
+        </div>
+      </div>
+      <div id="menuArea">
+        <div id="menu">
+          <p id="basicTrack">Basic Kills: 0</p>
+          <p id="advTrack">Advanced Kills: 0</p>
+          <p id="colonolTrack">Colonol Kills: 0</p>
+          <p id="totalTrack">Total Kills: 0</p>
+          <div id="PowerUps"></div>
+        </div>
+      </div>
+      <div id="upgradeArea">
+        <div id="UpgradeButton"></div>
+        <div id="Upgrades"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,307 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+}
+#PageBody {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: #5d5d5d;
+}
+
+#NavBody {
+	position: relative;
+	background-color: rgb(27 27 27 / 91%);
+	width: 100%;
+	height: 100px;
+	min-height: 100px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	justify-content: center;
+	font-size: 67%;
+}
+#Nav {
+	transition: all 1s;
+	height: 51.4%;
+	width: 100%;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	align-content: flex-end;
+	justify-content: center;
+}
+
+#Title {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 300%;
+	transition: all 1s;
+}
+.NavPageLink {
+	position: relative;
+	background-color: gray;
+	height: 78%;
+	width: 150px;
+	min-height: 78%;
+	min-width: 150px;
+	display: flex;
+	font-size: 150%;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	border-radius: 7px;
+	transition: all 0.5s;
+}
+.NavPageLink:hover {
+	cursor: pointer;
+	background-color: #5d5d5d;
+}
+.NavPageLink h1 {
+	font-size: 100%;
+}
+#MainPageBody {
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #5d5d5d;
+	gap: 2% 0px;
+}
+::-webkit-scrollbar {
+	width: 15px;
+	cursor: pointer;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(41, 41, 41, 0.411);
+	border-radius: 10px 10px 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(15, 15, 15);
+	border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(133, 131, 131);
+}
+.Pages {
+	position: relative;
+	background-color: rgba(71, 71, 71, 0.281);
+	width: 100%;
+	height: 100vh;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row-reverse;
+}
+#Footer {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(27 27 27 / 91%);
+}
+#HomePage {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+}
+#HomeImgP {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	justify-content: center;
+	align-items: flex-start;
+}
+.HomeImg {
+	position: relative;
+	width: 10%;
+	height: auto;
+}
+#HomeText {
+	position: relative;
+	text-align: center;
+
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+#HomeText {
+	font-size: 140%;
+}
+
+#PorgressImgBodyBody {
+	width: 71%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+#PorgressText {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	color: white;
+	font-size: 140%;
+}
+
+.ProgressImg {
+	position: relative;
+	width: 30%;
+	height: auto;
+}
+#ProgressImg1 {
+	left: 20%;
+	top: 4%;
+}
+#ProgressImg2 {
+	left: -8%;
+	top: 56%;
+}
+#ProgressImg3 {
+	left: 0%;
+	top: 30%;
+}
+#PorgressImgBody {
+	height: 67%;
+	width: 98%;
+	position: relative;
+	background-color: #4040407d;
+	border-radius: 100%;
+	border: solid black;
+}
+#ProgressTittle {
+	font-size: 400%;
+}
+.PorgressList {
+	padding: 8px 136px;
+	font-size: 33px;
+}
+#MeetTheTeam {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	flex-direction: column-reverse;
+}
+#MeetTheTeamImg1 {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	max-height: 270px;
+}
+#MeetTheTeamImg2 {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	max-height: 270px;
+}
+#MeetTheTeamImg3 {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	max-height: 270px;
+}
+#MeetTheTeamImg4 {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	max-height: 270px;
+}
+#MeetTheTeamImg5 {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	max-height: 270px;
+}
+
+#MeetTheTeamImg2 img {
+	width: 9%;
+	max-width: 9%;
+	height: auto;
+	max-height: 230px;
+}
+#MeetTheTeamImg3 img {
+	width: 9%;
+	max-width: 9%;
+	height: auto;
+	max-height: 230px;
+}
+#MeetTheTeamImg4 img {
+	width: 9%;
+	max-width: 9%;
+	height: auto;
+	max-height: 230px;
+}
+#MeetTheTeamImg5 img {
+	width: 9%;
+	max-width: 9%;
+	height: auto;
+	max-height: 230px;
+}
+#MeetTheTeamImg1 img {
+	width: 9%;
+	max-width: 9%;
+	height: auto;
+	max-height: 230px;
+}
+#MeetTheTeamContiner #Name {
+	width: fit-content;
+	font-size: 300%;
+}
+#MeetTheTeamContiner #Title {
+	width: fit-content;
+	font-size: 300%;
+}
+
+#MeetTheTeamContiner {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	padding-left: 70px;
+}
+#Games {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 63.9px;
+	font-size: 20px;
+}
+#Games a {
+	font-size: 40px;
+	color: white;
+}
+#Games a:hover {
+	font-size: 40px;
+	color: red;
+}
+#Games div {
+	max-width: 49%;
+	height: 100%;
+}
+#GameImg {
+	width: 30%;
+	position: absolute;
+	right: 3%;
+	top: 20%;
+}
