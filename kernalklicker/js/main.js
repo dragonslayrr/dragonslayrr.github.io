@@ -215,7 +215,7 @@ class butterBoom extends powerUp {
         this.main.UpgradeName = this.UpgradeName;
         this.main.UpgradeImage = this.UpgradeImage;
         this.main.Upgradekerency = [25, 100, 300, 500, Infinity];
-        this.main.MaxUpgradeTier = 4;
+        this.main.MaxUpgradeTier = 5;
         this.main.Upgrade = [
             { Strength: 1, Duration: 0 },
             { Strength: 1.5, Duration: 10000 },
@@ -260,7 +260,7 @@ class supercharger extends powerUp {
         this.main.UpgradeName = this.UpgradeName;
         this.main.UpgradeImage = this.UpgradeImage;
         this.main.Upgradekerency = [25, 100, 300, 500, Infinity];
-        this.main.MaxUpgradeTier = 4;
+        this.main.MaxUpgradeTier = 5;
         this.main.Upgrade = [
             { DamageMult: 1, SpeedMult: 1, Duration: 0 },
             { DamageMult: 2, SpeedMult: 2, Duration: 20000 },
