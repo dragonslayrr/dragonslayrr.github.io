@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="./assets/img/favicon.png" rel="icon">
-  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/img/" rel="icon">
+  <link href="./assets/img/" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -87,10 +87,10 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              My brother, Greyson, was born on 10/6/2009 and, despite being 13, is almost taller than me. He also likes to claim that he 
-              is stronger/faster then me which is probably accurate. I love to play video games and if im not doing that I probably had 
-              a weirdly neich program idea and had to create it. I also play Magic the Gathering and have been playing it since my dad 
-              taught me 10ish years ago.
+              My brother, Greyson, was born on 10/6/2009, and despite being 13, is almost taller than me. He also likes to claim that he 
+              is stronger, and faster then me which is probably accurate. I love to play video games, and if I'm not doing that I probably had 
+              a weirdly niche program idea and had to create it. I also play Magic the Gathering and have been playing it since my dad 
+              taught me around 10 years ago.
             </p>
           </div>
         </div>
@@ -108,43 +108,60 @@
         </div>
 
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div onclick="showImg('hwkRmd')" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <h4 class="title"><a href="">Homework Notifier</a></h4>
-              <p class="description">A simple python script that grabs data from a word doc and sends that to my phone as a notification.</p>
+              <p class="description">A simple Python script that grabs data from a word doc, and sends that to my phone as a notification.</p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div onclick="showImg('physSim')" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <h4 class="title"><a href="">Physics Simulator</a></h4>
-              <p class="description">Last year in class Kyle and I used Unity to make a physics simulator that can demonstrate physics
-                 but can also show them replayed in reverse</p>
+              <p class="description">Last year in class Kyle, and I used Unity to make a physics simulator that can demonstrate physics,
+                 but can also show them replayed in reverse.</p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div onclick="showImg('TDRL')" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <h4 class="title"><a href="">Top Down Rougelike</a></h4>
-              <p class="description">While currently just a very early WIP I am beginning to work on a top down rouglike game similar to 
+              <h4 class="title"><a href="">Top Down Roguelike</a></h4>
+              <p class="description">While currently just a very early WIP I am beginning to work on a top down roguelike game similar to 
                 ETG that I came up with over the summer.</p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div onclick="showImg('PDC')" class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <h4 class="title"><a href="">Project Directory Creator</a></h4>
-              <p class="description">Another simple Python project that can create a directory for different projects like html/css/js 
-                and comes with starter files pre linked to the html.</p>
+              <p class="description">Another simple Python project that can create a directory for different projects like HTML/CSS/js 
+                and comes with starter files pre linked to the HTML.</p>
             </div>
           </div>
 
         </div>
 
-        <div class="row">
+        <div class="row" id="hwkRmd">
             <img class="noti" src="./assets/img/notifierFull_1.png" alt="">
             <img class="noti" src="./assets/img/IMG_1761.jpg" alt="">
             <img class="noti" src="./assets/img/notifierFull_2.png" alt="">
+        </div>
+
+        <div class="row" id="physSim">
+            <video class="notigen" controls><source src="./assets/img/physics simulator.mp4" type="video/mp4"></video>
+        </div>
+
+        <div class="row" id="TDRL">
+            <p class="notigen">WIP</p>
+        </div>
+
+        <div class="row" id="PDC">
+            <img class="noti" src="./assets/img/code1.png" alt="">
+            <img class="noti" src="./assets/img/code2.png" alt="">
+            <img class="noti" src="./assets/img/code3.png" alt="">
+            <img class="noti" src="./assets/img/code4.png" alt="">
+            <img class="noti" src="./assets/img/code5.png" alt="">
+            <img class="noti" src="./assets/img/code6.png" alt="">
         </div>
 
       </div>
@@ -304,6 +321,14 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/fort.JPG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Fortnite</h4>
+              <a href="./assets/img/fort.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Fortnite"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="./assets/img/ror2.JPG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Risk of Rain 2</h4>
@@ -348,9 +373,10 @@
   <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/vendor/php-email-form/validate.js"></script>
-
+  
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/conner.js"></script>
 
 </body>
 
